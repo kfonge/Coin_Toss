@@ -4,16 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coin Toss Game</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"> </script>
 </head>
 <body>
     <h1> Heads or Tails?</h1>
-    <h3> SCORE: player1 </h3>
+    <div id="intro">
+        <p class="instructions"> INSTRUCTIONS: In this game, 
+        the player selects their guess--either heads or tails 
+        and then clicks Toss Time! to reveal the outcome. 
+        Two correct guesses out of three wins the game. 
+        Two wrong guesses means the computer wins. Click BEGIN to 
+        start the game below!</p>
+    </div>
+
     <div id ="gameContainer">
+        <div id="startButton">Begin</div>
         <div id="coin"></div>
-        <div id="button">Toss Time!</div>
+        <div id="tossButton">Toss Time!</div>
+        
+        <div id="callButtons">
+        <button id="callHeads">Call Heads</button>
+        <button id="callTails">Call Tails</button>
+        </div>
+
+        <div id="scoreBoard">
+          
+        </div>
+        <!-- <div id="score">  </div> -->
     </div>
     
 </body>

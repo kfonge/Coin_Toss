@@ -1,8 +1,40 @@
-body {
-    background-color: #205546; 
 
+body {
+    background-color: #205546;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
   }
-  
+
+  h1{
+    font-size: 55px;
+    font-family: 'Lucida Sans';
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  h3{
+    font-size: 50px;
+    font-family: 'Lucida Sans';
+    color: white;
+  }
+
+  #intro{
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border: 1mm solid white;  
+    max-width: 30rem;  
+    
+    
+  }
   #gameContainer{
     display: flex;
     flex-direction: column;
@@ -14,19 +46,43 @@ body {
   #coin {
      position: center;
   }
-  
-  #button {
+
+  #startButton {
     font-size: 50px;
     background-color:#d7ad43;
+    font-family: 'Lucida Sans';
     color:#fff;
-    padding:30px 30px;
+    padding:20px 20px;
     border-radius:50px;
     display:inline-block;
     transition:0.5s;
     cursor:pointer;
   }
+
+  #callButtons {
+    display: none;
+    flex-direction: column;
+    
+  }
   
-  #button:hover {
+
+  #tossButton {
+    font-size: 50px;
+    background-color:#d7ad43;
+    font-family: 'Lucida Sans';
+    color:#fff;
+    padding:20px 20px;
+    border-radius:50px;
+    display:none;
+    transition:0.5s;
+    cursor:pointer;
+  }
+
+  #scoreBoard {
+
+  }
+  
+  #tossButton:hover {
       opacity:0.5;
       background-color: #012316;
     }
