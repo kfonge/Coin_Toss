@@ -16,7 +16,7 @@ Multiple rounds to play - a round must begin, end, and there must be a way to ch
 
 # GAME INSTRUCTIONS
 
-In this game, the player selects their guess--either heads or tails and then clicks Toss Time! to reveal the outcome. Two correct guesses out of three wins the game. Two wrong guesses means the computer wins. 
+In this game, the player selects their guess--either heads or tails and then clicks "Toss Time!" to reveal the outcome. The computer checks the players guess against the outcome and communicates a win or loss for that round. The game has a maximum of three rounds. Two correct guesses out of three wins the game. Two wrong guesses loses the game-- meaning the computer wins. 
 
 # TECHNOLOGIES USED
 
