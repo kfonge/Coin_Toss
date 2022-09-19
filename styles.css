@@ -33,7 +33,7 @@ body {
     border: 1mm solid white;  
     max-width: 30rem;  
   }
-  
+
   #gameContainer{
     display: flex;
     flex-direction: column;
@@ -75,10 +75,6 @@ body {
     display:none;
     transition:0.5s;
     cursor:pointer;
-  }
-
-  #scoreBoard {
-
   }
   
   #tossButton:hover {

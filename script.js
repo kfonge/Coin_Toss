@@ -2,6 +2,7 @@ let coin = document.getElementById("coin")
 let tossButton = document.getElementById("tossButton")
 let startButton = document.getElementById("startButton")
 let playerGuess
+let tossResult
 let roundsWon = 0
 let wrongGuesses = 0
 // win state
@@ -9,8 +10,8 @@ winGame = function () {
   document.getElementById("tossButton").style.display = "none"
   document.getElementById("callButtons").style.display = "none"
   document.getElementById("h1").textContent = "GAME OVER"
-  alert("Congratulations COIN MASTER - you've WON the game!")
-  
+  setTimeout(() => { alert("Congratulations COIN MASTER - With 2 GOOD guesses, you've WON the game!")
+  }, 2000)
 }
 //lose state
 
@@ -18,9 +19,9 @@ loseGame = function () {
   document.getElementById("tossButton").style.display = "none"
   document.getElementById("callButtons").style.display = "none"
   document.getElementById("h1").textContent = "GAME OVER"
-  alert(
+  setTimeout(() => { alert(
     "GAME OVER - You made too many wrong guesses and lost. Reload the page to reset and play again."
-  )
+  )}, 2000)
 }
 
 //initiate game - upon clicking begin, game instuctions disappear and guess buttons are displayed
@@ -60,7 +61,6 @@ callTails.onclick = function () {
 //Define the  toss coin function, then initiate tossTime click event to call toss function
 function tossCoin() {
   let num = Math.floor(Math.random() * 2)
-  let tossResult
 
   // for (i = 0; i < 2; i++) {
   if (num === 0) {
@@ -74,8 +74,10 @@ function tossCoin() {
     coin.innerHTML =
       '<img class="tails animate-coin" src="https://lenadesign.org/wp-content/uploads/2020/06/tail.png?w=100"/>'
   }
+}
   /////CHECK GUESS////////// against toss outcome and notify player if round won or lost
   //If they guess correctly there's two options, they win and can guess again. increment points
+function checkGuess() {
   if (tossResult == playerGuess) {
     roundsWon++
     console.log("rounds won:" + roundsWon)
@@ -97,7 +99,7 @@ function tossCoin() {
   } else {
     setTimeout(() => {
       alert(
-        "Incorrect guess--You lost this round! You have ONE more chance, so make this guess good!"
+        "Incorrect guess--You lost this round!"
       )
     }, 2000)
     wrongGuesses++
@@ -115,4 +117,5 @@ function tossCoin() {
 //
 tossButton.onclick = function () {
   tossCoin()
+  checkGuess()
 }
