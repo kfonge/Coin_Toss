@@ -1,6 +1,6 @@
 # Overview
 
-This is a DOM based coin toss game -- heads or tails built with HTML, CSS and JavaScript
+Coin Toss is a DOM based coin toss game of Heads or Tails built with HTML, CSS and JavaScript
 
 Requirements were that the game must:
 
