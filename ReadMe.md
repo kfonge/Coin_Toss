@@ -12,7 +12,13 @@ A way to keep playing if the game is not over
 
 Multiple rounds to play - a round must begin, end, and there must be a way to check if the game should continue or the overall game is won or lost
 
+GAME INSTRUCTIONS
+
+In this game, the player selects their guess--either heads or tails and then clicks Toss Time! to reveal the outcome. Two correct guesses out of three wins the game. Two wrong guesses means the computer wins. 
+
 TECHNOLOGIES USED
+
+HTML, CSS, Javascript
 
 The main technologies used in this project were:
 
