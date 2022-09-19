@@ -1,24 +1,38 @@
 
-This is a  coin toss game. This is my first attempt at a two player game using elements that I understand.
-
-Your dom project must meet these requirements:
-
-INSTRUCTIONS: Built with HTML, CSS and JavaScript (must be visual and use the DOM not the Console)
-Hosted on Github pages
+This is a DOM based coin toss game -- heads or tails built with HTML, CSS and JavaScript 
 
 
-Must be a two player game (either against the computer or against another player)
+Requirements were that the game must:
+
+be a two player game (either against the computer or against another player)
 
 
-A win state - a way for the player to win the game
-
-High score can be considered a win state
-
-A lose state - a way for the player to lose the game
+contain a win state - a way for the player to win the game
 
 
+contain a lose state - a way for the player to lose the game
 
 A way to keep playing if the game is not over
 
 Multiple rounds to play - a round must begin, end, and there must be a way to check if the game should continue or the overall game is won or lost
 
+
+TECHNOLOGIES USED
+
+The main technologies used in this project were: 
+
+1) The Math.random function to randomize the toss outcome
+2) Buttons and click events to move us through the stages of the game
+3) CSS animation to make the coin image rotate as a click event 
+
+
+
+CHALLENGES ENCOUNTERED
+
+I struggled with seperating out the rounds for this project and deciding whether to embed my logic in if statements chronologically or to create seperate functions to begin rounds. 
+
+FUTURE DEVELOPMENTS
+
+With more time, I would like to make the game more interactive by adding:
+1) sound effects
+2) a thumb-flick or other animation features to making the toss event more 3-D 
