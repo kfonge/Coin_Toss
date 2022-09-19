@@ -44,4 +44,5 @@ With more time, I would like to make the game more interactive by adding:
 2. A thumb-flick or other animation features to making the toss event more 3-D
 3. A way to statically display the rounds and score on the page instead of using alerts
 4. A menu for players to choose a differnt coin to customize their game experience
+5. Use modal for endgame and potentially for reset
 
