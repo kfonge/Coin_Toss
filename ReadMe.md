@@ -22,22 +22,15 @@ The main technologies used in this project were:
 
 CHALLENGES ENCOUNTERED
 
-I struggled with seperating out the rounds for this project and deciding whether to embed my logic in if statements chronologically or to create seperate functions to begin rounds.
+I struggled with finding a balance as I seperated out the rounds for this project. That is---- deciding whether to embed my logic in if statements chronologically or to create several seperate functions to begin rounds. 
 
-FUTURE DEVELOPMENTS
-I struggled with seperating out the rounds for this project and deciding whether to embed my logic in if statements chronologically or to create seperate functions to begin rounds.
-
-Figuring out how to control the alert messages--not showing up too soon even with the time outs
+I also struggled with figuring out how to control the alert messages--not showing up too soon even with the time outs. At the current stage of the game, for some rounds the order is correct, but for others, the final game outcome notification pops up before the coin animation runs
 
 FUTURE DEVELOPMENTS
 
 With more time, I would like to make the game more interactive by adding:
 
-1. Sound effects to make the game a little more fun/dynamic
+1. Sound effects to make the game a little more fun/dynamic 
 2. A thumb-flick or other animation features to making the toss event more 3-D
 3. A way to statically display the rounds and score on the page instead of using alerts
 
-With more time, I would like to make the game more interactive by adding:
-
-1. sound effects
-2. a thumb-flick or other animation features to making the toss event more 3-D

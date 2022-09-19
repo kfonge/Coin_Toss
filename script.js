@@ -24,7 +24,7 @@ loseGame = function () {
   )}, 2000)
 }
 
-//initiate game - upon clicking begin, game instuctions disappear and guess buttons are displayed
+//initiate game - upon clicking "begin", game instuctions disappear and guess buttons are displayed
 
 startButton.onclick = function () {
   document.getElementById("startButton").style.display = "none"
@@ -35,13 +35,13 @@ startButton.onclick = function () {
   
 }
 
-//once the player makes their call guess, record it in variable and show the toss coin button
+//once the player makes their call guess, record it in variable and show the toss coin button 
 
 let callHeads = document.getElementById("callHeads")
 let callTails = document.getElementById("callTails")
 
 /////PLAYER GUESS///////
-//when heads button or tails button is clicked, the player guess is recorded; both guess buttons disappear; Toss button appears
+//when either heads button OR tails button is clicked, the player guess is recorded; both guess buttons disappear; Toss button appears
 callHeads.onclick = function () {
   playerGuess = "HEADS"
   callButtons.style.display = "none"
