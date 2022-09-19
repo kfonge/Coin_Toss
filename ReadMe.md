@@ -18,11 +18,13 @@ Multiple rounds to play - a round must begin, end, and there must be a way to ch
 
 In this game, the player selects their guess--either heads or tails and then clicks "Toss Time!" to reveal the outcome. The computer checks the players guess against the outcome and communicates a win or loss for that round. The game has a maximum of three rounds. Two correct guesses out of three wins the game. Two wrong guesses loses the game-- meaning the computer wins. 
 
+Where to play: https://kfonge.github.io/Coin_Toss/
+
 # TECHNOLOGIES USED
 
 HTML, CSS, Javascript
 
-The main technologies used in this project were:
+The main programming elements used in this project were:
 
 1. The Math.random function to randomize the toss outcome
 2. Buttons and click events to move us through the stages of the game
@@ -41,4 +43,5 @@ With more time, I would like to make the game more interactive by adding:
 1. Sound effects to make the game a little more fun/dynamic 
 2. A thumb-flick or other animation features to making the toss event more 3-D
 3. A way to statically display the rounds and score on the page instead of using alerts
+4. A menu for players to choose a differnt coin to customize their game experience
 
