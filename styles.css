@@ -32,9 +32,8 @@ body {
     align-content: center;
     border: 1mm solid white;  
     max-width: 30rem;  
-    
-    
   }
+  
   #gameContainer{
     display: flex;
     flex-direction: column;
